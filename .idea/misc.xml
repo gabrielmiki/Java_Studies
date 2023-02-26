@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="Quarkus" url="file://$PROJECT_DIR$/nosql-quarkus" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/rest-client-quarkus" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/rest-quarkus" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/nosql-quarkus/pom.xml" />
+        <option value="$PROJECT_DIR$/rest-quarkus/pom.xml" />
+        <option value="$PROJECT_DIR$/rest-client-quarkus/pom.xml" />
+      </list>
+    </option>
+  </component>
+</project>
