@@ -280,4 +280,34 @@ Even though there is always the possibility to lose an event. Therefor it is hea
 A Representational State Transfer (REST) is an architectural style and a design for network-based software. It describes how one system can communicate a state with another. REST is used to transport resources representations (JSON, HML, HTML) over the network. The stardart method used by REST architectures is the HTTP. A RESTful web service is simply a web service that is based on the REST resource concept and the usage of HTTP methods. 
 
 ## Bibliography
-- 
+
+### Maven
+
+#### Creating a project with Maven
+```
+mvn archetype:generate -DgroupId=edu.miki.mavencourse -DartifactID=conteudo -Darchetype=maven-archetype-quickstart -DinteractiveMode=false
+```
+
+#### Commun Commands
+Compilation: compiles all the java classes in the project and insert them into the target folder.
+```
+mvn compile
+```
+Test: maven compiles the test classes.
+```
+mvn test
+```
+Pack the application: creates the .jar document of the application.
+```
+mvn package
+```
+Clean the project:
+```
+mvn clean
+```
+
+#### Creating diferent Projects
+A new project type is set through the archetype parameter. 
+
+#### Dependencies
+POM: project object model, details the project and how to build the project. 
